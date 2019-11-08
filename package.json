@@ -1,0 +1,32 @@
+{
+  "name": "fluent-elements",
+  "description": "> TODO: description",
+  "author": "Luis Sardon <lmsardon@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "bootstrap": "lerna bootstrap && npm run build:components",
+    "build:components": "lerna run tsc && npm run copy:components",
+    "copy:components": "copy-files-from-to",
+    "lint:components": "tslint -c tslint.json 'packages/**/*.ts'",
+    "postinstall": "lerna bootstrap --hoist --no-ci",
+    "publish": "npm run bootstrap && lerna publish",
+    "test": "jest"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/jest": "^24.0.22",
+    "@types/node": "^12.12.6",
+    "copy-files-from-to": "^2.1.0",
+    "jest": "^24.9.0",
+    "lerna": "^3.18.4",
+    "prettier": "^1.18.2",
+    "ts-jest": "^24.1.0",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.3.0"
+  }
+}

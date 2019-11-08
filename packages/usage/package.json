@@ -1,0 +1,25 @@
+{
+  "name": "@fluent-elements/usage",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Luis Sardon <lmsardon@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/usage.js",
+  "typings": "lib/usage.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@fluent-elements/alpha": "0.0.0",
+    "@fluent-elements/beta": "0.0.0"
+  }
+}

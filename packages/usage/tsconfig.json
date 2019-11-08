@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "tsBuildInfoFile": ".tsbuildinfo"
+  },
+  "include": [
+    "./src/*.ts"
+  ],
+  "references": [
+    { "path": "../alpha" },
+    { "path": "../beta" }
+  ]
+}

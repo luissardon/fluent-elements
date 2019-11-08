@@ -1,0 +1,21 @@
+{
+  "name": "@fluent-elements/beta",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Luis Sardon <lmsardon@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/beta.js",
+  "typings": "lib/beta.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}

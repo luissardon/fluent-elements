@@ -1,0 +1,15 @@
+{
+  "copyFiles": [
+    {
+      "from": [
+        "packages/**/*",
+        "!packages/**/__tests__/**/*",
+        "!packages/**/src/**/*"
+      ],
+      "to": "node_modules/@fluent-elements"
+    }
+  ],
+  "copyFilesSettings": {
+    "whenFileExists": "overwrite"
+  }
+}
